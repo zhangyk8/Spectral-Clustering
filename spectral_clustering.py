@@ -4,7 +4,7 @@ import numpy as np
 from scipy.spatial.distance import pdist, squareform
 from sklearn.cluster import KMeans
 
-# Based on "A Tutorial on Spectral Clustering" by Ulrike von Luxburg
+# Based on "A Tutorial on Spectral Clustering" written by Ulrike von Luxburg
 def Spectral_Clustering(X, K=8, adj=True, metric='euclidean', sim_graph='fully_connect', sigma=1, knn=10, epsi=0.5, normalized=1):
     '''
     Input: 
